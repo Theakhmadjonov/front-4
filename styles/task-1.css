@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+h1 {
+  font-family: "Anton", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #93f344;
+  color: black;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  padding: 30px 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+nav {
+  margin-right: 100px;
+  display: flex;
+  gap: 200px;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  max-width: 600px;
+}
+
+.left h1 {
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.left p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+button {
+  background-color: #c5f05a;
+  border: none;
+  padding: 14px 50px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.right img {
+  max-width: 800px;
+  width: 100%;
+}
+.right .nike {
+  height: 800px;
+  transform: scaleX(-1);
+}
